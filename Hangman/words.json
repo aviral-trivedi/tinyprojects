@@ -1,0 +1,8 @@
+{
+        "Fruits": ["Apple", "Banana", "Blueberry", "Cherry", "Orange", "Kiwi", "Mango", "Peach", "Pineapple", "Strawberry"],
+        "Video Games": ["Minecraft", "Fortnite", "GTA5", "COD", "PUBG", "FIFA"],
+        "Vegetables": ["Cucumber", "Potato", "Carrot", "Broccoli", "Spinach", "Peas", "Corn", "Onion", "Garlic"],
+        "Objects": ["Chair", "Table", "Laptop", "Phone", "Car", "House", "Watch", "Book", "Bed", "Camera"],
+        "Movies": ["Joker", "Inception", "Titanic"]
+        
+}

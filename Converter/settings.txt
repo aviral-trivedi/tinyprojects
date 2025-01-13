@@ -1,0 +1,3 @@
+
+geometry = 450x350
+font=("Source Sans Pro Bold",15)
