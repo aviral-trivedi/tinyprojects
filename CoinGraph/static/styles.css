@@ -5,6 +5,14 @@
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover; /* Ensure it covers the entire viewport */
     background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: fixed; /* Makes background stay fixed on scroll */
     height: 100vh; /* Set to viewport height */
     margin: 0; /* Remove default margin */
+    padding: 0;
+}
+
+.trading-card {
+    height: 400px;
+    background-color: #2a2e39;
+    border: 1px solid #363a45;
 }
