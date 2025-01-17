@@ -7,7 +7,28 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.GUI()
 
+    def styleSheet(self):
+        super().styleSheet()
+
+        self.button_style = """
+            QPushButton {
+                background-color: #3498db;
+                color: white;
+                font-size: 14px;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+            QPushButton:hover {
+                background-color: #2980b9;
+            }
+            QPushButton:pressed {
+                background-color: #1c5983;
+            }
+        """
+
     def GUI(self):
+
+
         self.setWindowTitle("Calculator")
         self.setGeometry(5,5, 400,450)
         self.setWindowIcon(QIcon("Calculator/images/icons/calculator.png"))
@@ -29,8 +50,7 @@ class MainWindow(QMainWindow):
 
         self.ans_label = QLabel("0")
         self.extra_btn = QPushButton("^")
-        self.extra_btn.setGeometry(0,0,10,10)
-
+        self.extra_btn.setFixedSize(40, 20) 
         self.ans_layout.addWidget(self.extra_btn)
         self.ans_layout.addWidget(self.ans_label)
         self.ans_widget.setLayout(self.ans_layout)  # FIX: Layout set for ans_widget
